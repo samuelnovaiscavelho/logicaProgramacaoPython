@@ -7,5 +7,9 @@ desconto em percentual dado pela prefeitura para pagamento à vista.
 pagamentoVista = float(input("Informe o valor a vista: "))
 pagamentoParcelado = float(input("Informe o valor das Parcelas: "))
 
+desconto = pagamentoVista * 0.03
+valorDesconto = pagamentoVista - desconto
+print("O desconto vai ser de %.2f"% desconto, " e o valor total a ser pago vai ser %.2f"% valorDesconto)
+
 
 
