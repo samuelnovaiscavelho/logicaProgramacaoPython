@@ -6,6 +6,8 @@ você terá que importar o módulo math antes.
 '''
 import math
 
-#coloque aqui o resto do seu codigo
-#tudo na frente do sustenido eh
-#considerado um comentario em Python
+num = float(input("Informe um numero positivo: "))
+raiz = math.sqrt(num)
+
+print("O numero digitado foi ", num , " e a raiz quadrada desse número é ", raiz)
+
