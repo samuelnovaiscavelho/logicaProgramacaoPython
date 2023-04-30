@@ -24,10 +24,10 @@ if op == "*":
     resultado = numA * numB
     print(" Resposta ", resultado)
 
-if((numB != 0) == False):
+elif((numB != 0) == False):
     print("Não é possível dividir por zero")
     
-if((numB == 0) == False)):
+else:
     if op == "/":
         resultado = numA / numB
         print (" Resposta ", resultado )
